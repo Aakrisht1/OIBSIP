@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@300;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.top {
+    height: 50vh;
+}
+
+.size {
+    font-size: 1.3rem;
+}
+
+.text-color {
+    color: white;
+}
+
+.t1 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: italic;
+}
+
+.t2 {
+    text-align: center;
+    word-spacing: 0.1px;
+    letter-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.space {
+    margin-bottom: 25vh;
+}
